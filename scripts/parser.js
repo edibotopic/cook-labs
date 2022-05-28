@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   ;(show = async () => {
-    let parseList = await (await fetch('./recipes/recipes.json')).text()
+    let parseList = await (await fetch('recipes/recipes.json')).text()
     let name = JSON.parse(parseList)[standIn]['name']
-    let recipeString = await (await fetch(`/recipes/` + name)).text()
+    let recipeString = await (await fetch(`recipes/` + name)).text()
     const recipe = new Recipe(recipeString)
     // cooklang
     document.getElementById('placeholder').textContent = recipeString
