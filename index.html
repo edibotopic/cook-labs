@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="./styles/main.css" rel="stylesheet" />
+    <link href="./styles/grid.css" rel="stylesheet" />
+    <link href="./styles/copy.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/base16/papercolor-light.min.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/6fd40423dd.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script> -->
+    <!-- function toggle_dark_mode() { -->
+    <!--   var element = document.body; -->
+    <!--   element.classList.toggle("dark-mode"); -->
+    <!-- } -->
+    <!-- </script> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+
+    <script type="text/javascript" src="scripts/cooklang.js"></script>
+    <script type="text/javascript" src="scripts/setter.js"></script>
+    <script type="text/javascript" src="scripts/recipes.js"></script>
+    <script type="text/javascript" src="scripts/parser.js"></script>
+    <script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+  </head>
+
+  <body>
+    <h1>CookLabs: Scientific Recipes</h1>
+
+    <div id="recipe-list"></div>
+    <br />
+    <hr />
+
+    <div id="pretty"></div>
+
+    <section class="one-grid">
+      <div class="card-wide" id="EqpList"></div>
+    </section>
+
+    <section class="two-grid">
+      <div class="card-detail-left" id="IngList"></div>
+      <div class="card-detail-right" id="ImgWrap">
+        <img id="MealImage" />
+        <i class="fas fa-camera icon-image fa-rg" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <h3>Steps to Reproduce</h3>
+    <section class="one-grid">
+      <div class="card-long" id="StepList"></div>
+    </section>
+    <br />
+    <hr />
+
+    <h3>Copy the Source</h3>
+
+    <pre><code id="placeholder" class="language-ruby"></code></pre>
+
+    <p id=""></p>
+
+    <hr />
+    <details>
+      <summary>
+        Content generated from
+        <a href="https://cooklang.org/">CookLang</a> markup (click to view JSON)
+      </summary>
+      <pre id="json">
+  <p id="formatted"> </p>
+ </pre>
+    </details>
+    <br />
+    <br />
+    <small id="footer"
+      ><a href="https://github.com/edibotopic/cook-labs"
+        >edibotopic | 2022</a
+      ></small
+    >
+    <!-- <div style="cursor:pointer; display:table; padding:1px" onclick="toggle_dark_mode();">  -->
+    <!-- <img style="display:none" alt="Dark Mode" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6RwvCAAACCklEQVR4Ae2dwZGjMBBFNVN7hwxgI1BnMCICyxFYRGA5ApTBQATIGWgy0EbgVgYQwYoI2JqDq7yYNcIFrC99pGjq0f3/7+tb3/fkFer9JShuQbz30UuAxHHchTQYY3ZSys+lwYNW472PlFJFHMe/9/u94ZybUPDQ+jH1AiJSzrlp2zYlhJDD4aAZY7+WXs1DEK31Ic9zfftMKaU2dc0YBKUU0zRtNwNBRDqE+J4f59xsmiNCiDuIbxLGmN0MpCzLo3MO/nuyriXGWSDGmF3XdfErgPBHLzdNk24CgogPtWGtZZuATIl0amKr35prdV0Xa60Pa4BM3poxV61x9GZNhBBC2rZNpZTlqquhlGJI0/l8FlLKz9VWAwAYmqpVVcnrqp5ZEyJSAHCjE5l71Kqqkowxa639CO2x1n4AwGWYSUOQryiK/BwY5xxkWWYB4FKW5RER6djfl2V5BIBLlmXWex9zzr8eukYppU6n02wxOucgtG/sut+5RkpZhYr2mUqSpBlz3ah9tdZiLRBjDB8T9ygIALi6rheHqeta3DolKFmFEGdCCMnz/G6fz0Jcvzk74oUQZwBAzrlp2/Yvu83RhDGG/2sSwREPAA4RoSgKNcfaSZI0RVGopml+TkEQQshb3/dzxbYzxnBEhGEKU0rxOsFhTiwOsmR576Org2Zf3wVtvGOM2ZeYyG39AfiA/dXUMa3sAAAAEHRFWHRMb2RlUE5HADIwMTEwMjIx41m2wQAAAABJRU5ErkJggg==" /> -->
+    <!-- <span style="font-size:22pt">&#9790;</span> -->
+    <!-- </div> -->
+  </body>
+</html>

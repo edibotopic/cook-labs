@@ -1,0 +1,78 @@
+:root {
+  --black: #231f20;
+  --red: #bb4430;
+  --blue: #7ebdc2;
+  --beige: #f3dfa2;
+  --white: #efe6dd;
+}
+
+.basic-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.one-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.two-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.icon-ingredient {
+  color: var(--white);
+  /* left: 1.8vw; */
+  top: 2.4vw;
+  width: 2.5vh;
+  height: 2.5vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.icon-equipment {
+  color: var(--white);
+  /* right: 2.2vw; */
+  /* top: 2.4vw; */
+  width: 2.5vh;
+  height: 2.5vh;
+  z-index: 1;
+}
+
+.icon-image {
+  color: var(--white);
+  right: 2.0vw;
+  top: 1.0vw;
+  width: 2.8vh;
+  height: 2.8vh;
+  position: absolute;
+  z-index: -1;
+}
+
+.icon-steps {
+  color: var(--black);
+  right: 2.5vw;
+  top: 2.6vw;
+  width: 2.5vh;
+  height: 2.5vh;
+  /* width: 20px; */
+  /* height: 20px; */
+  position: absolute;
+}
+
+.two-grid img {
+  filter: sepia(80%);
+  width: 35vw;
+  height: 35vw;
+  border-radius: 20px;
+  /* transition: all 1000 ms; */
+}
+
+.two-grid img:hover {
+  filter: sepia(30%);
+  transform: scale(1.1);
+}
