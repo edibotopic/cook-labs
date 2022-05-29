@@ -221,7 +221,7 @@ pre {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   background: var(--lightred);
   font-size: 2.8vw;
   padding: 30px;
