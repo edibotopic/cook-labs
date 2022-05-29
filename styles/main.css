@@ -213,7 +213,7 @@ pre {
 
 .quants {
   color: var(--black);
-  font-size: 2.8vw;
+  font-size: 2.2vw;
 }
 
 .card-detail-right {
@@ -238,7 +238,6 @@ pre {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  z-index: 0;
 }
 
 .card-detail-right:hover {
@@ -255,6 +254,7 @@ pre {
   justify-content: center;
   align-items: stretch;
   padding-left: 1vh;
+  padding-right: 4vh;
   background: var(--beige);
   font-size: 2.6vw;
   color: var(--black);
@@ -271,6 +271,7 @@ pre {
   background-position: center;
   background-repeat: no-repeat;
   grid-row: span 2 / auto;
+  z-index: 1;
 }
 
 .card-long:hover {
