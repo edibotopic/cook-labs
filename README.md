@@ -248,6 +248,9 @@ Lastly, this also functions simply as an *idea* of what formalising recipe devel
 
 - [ ] More _recipes_
 - [ ] *Less* _readme_
+- [ ] Show info, source, pairing and tags
+- [ ] Fix CSS animation for images
+- [ ] Add note on images (source and representation)
 - [ ] _Methods_ page
 - [ ] _About_ page
 - [ ] Implement _tags_
