@@ -13,7 +13,7 @@ Each recipe is stored in a structured plaintext format, written using the [Cookl
 > **Note**
 > Please refer to the link above to understand how Cooklang recipes are written.
 
-The user selects a recipe, which triggers the parsing of a source recipe (`.cook` file). The parsed recipe (in `.json` format) is then use to extract key information (metadata, equipment, ingredients, quantities) to be displayed on the
+The user selects a recipe, which triggers the parsing of a source recipe (`.cook` file). The parsed recipe (in `.json` format) is then used to extract key information (metadata, equipment, ingredients, quantities) to be displayed on the
 website.
 
 Source recipes are also shown in _Cooklang format_ to facilitate copying by users who might wish to recreate, modify or update the recipe. 
@@ -246,8 +246,9 @@ Lastly, this also functions simply as an *idea* of what formalising recipe devel
 
 ### Roadmap
 
-- [ ] More _recipes_
-- [ ] *Less* _readme_
+- [ ] Add more _recipes_
+- [ ] Query use of vh and vw in css
+- [ ] Make more scalable (display only selections/previews)
 - [ ] Show info, source, pairing and tags
 - [ ] Fix CSS animation for images
 - [ ] Add note on images (source and representation)
